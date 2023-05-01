@@ -34,7 +34,6 @@ public class PlayerMovement : MonoBehaviour
             if (count == 0) {
                 _rb.MovePosition(_rb.position + _moveInput * (moveSpeed * Time.fixedDeltaTime));
             }
-            
         }
     }
 
